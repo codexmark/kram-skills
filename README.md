@@ -11,6 +11,24 @@ Quality: `code-review-and-quality` · `code-simplification` · `codebase-design`
 Process: `planning-and-task-breakdown` · `security-and-hardening` · `frontend-ui-engineering`
 Voice: `ponytail` · `caveman`
 
+## Vendored from external collections (MIT, see THIRD-PARTY-NOTICES.md)
+
+Workflow ([obra/superpowers](https://github.com/obra/superpowers)):
+`test-driven-development` · `systematic-debugging` · `verification-before-completion` ·
+`brainstorming` · `writing-plans` · `executing-plans` · `requesting-code-review` ·
+`receiving-code-review` · `using-git-worktrees` · `finishing-a-development-branch` · `using-superpowers`
+
+Engineering practice ([github/awesome-copilot](https://github.com/github/awesome-copilot)):
+`acquire-codebase-knowledge` · `ai-ready` · `bug-reproduction-brief` · `build-evidence-map` ·
+`codeql` · `commit-message-storyteller` · `context-map` · `conventional-branch` ·
+`conventional-commit` · `create-agentsmd` · `create-llms` · `create-readme` · `dependabot` ·
+`documentation-writer` · `github-actions-hardening` · `quality-playbook` · `secret-scanning` · `security-review`
+
+Domain ([vercel-labs/vgpu](https://github.com/vercel-labs/vgpu)): `vgpu`
+
+Each vendored skill's `SOURCE` file records its origin — prefer updating from the
+source repos when they evolve.
+
 ## Recommended external collections (install from the source — they evolve)
 
 - [obra/superpowers](https://github.com/obra/superpowers) (MIT) — the gold standard for dev-workflow
