@@ -23,9 +23,18 @@ Priority when instructions conflict:
 - `ui-style-explorer` — compare multiple visual families before committing to one.
 - `taste-parameterized-design` — tune variance, motion, and information density explicitly.
 - `anti-slop-interface-design` — detect and remove generic AI-template patterns.
-- `design-memory` — persist approved interface decisions across long-running projects.
+- `soft-ui-direction` — calm, premium, restrained interface direction.
+- `minimalist-ui-direction` — editorial/minimal product UI with strong structure and low decoration.
+- `brutalist-ui-direction` — intentional brutalist/neo-brutalist visual systems.
 - `ux-innovative-design` — deliberately explore unconventional interaction patterns.
 - `ux-controlled-design` — design within strict enterprise/regulatory constraints.
+
+### References, continuity and completion
+
+- `design-memory` — persist approved interface decisions across long-running projects.
+- `design-reference-study` — extract portable design DNA from screenshots/sites without blind cloning.
+- `image-reference-to-code` — turn a supplied UI reference into maintainable production code.
+- `complete-ui-output` — finish all in-scope UI states, responsive behavior and verification instead of stopping at the happy path.
 
 ### Research, strategy, evaluation
 
@@ -44,8 +53,10 @@ Priority when instructions conflict:
 ### Design-to-code and brand systems
 
 - `figma-to-code-handoff` — translate supplied Figma specs into production UI while preserving the project's architecture.
+- `stitch-design-handoff` — portable design-contract handoff for Stitch/generative-design workflows.
 - `theme-factory` — construct or compare complete semantic theme families.
 - `brand-guidelines` — turn brand rules into enforceable interface decisions.
+- `brand-kit-generation` — generate practical early-stage identity/brand-board systems.
 - `visual-canvas-design` — plan standalone visual artifacts rather than application UI.
 - `skill-authoring` — create and review reusable Kram skills.
 
@@ -56,6 +67,30 @@ Priority when instructions conflict:
 - `immersive-scroll-world` — cinematic scene-based scroll experiences with explicit cost/performance gates.
 - `image-to-threejs` — reconstruct a visual reference as procedural Three.js code.
 - `app-store-screenshot-design` — production App Store promotional screenshot sets.
+
+## How this maps to the broader design-skill ecosystem
+
+The Kram extended library intentionally covers the major capability families present in the current public UI/UX skill ecosystem:
+
+- distinctive frontend art direction;
+- broad style/design-system exploration;
+- parameterized taste and density control;
+- anti-AI-slop critique and redesign;
+- soft/minimal/brutalist directions;
+- screenshot/reference study and image-to-code workflows;
+- persistent design memory;
+- controlled and innovative UX modes;
+- design research, strategy and sprint workflows;
+- web quality, visual audit and heuristic audit;
+- React, React Native and iOS-native engineering;
+- retention/engagement analysis with ethical boundaries;
+- Figma/design-tool handoff;
+- theme, brand, brand-kit and standalone visual artifacts;
+- motion and micro-interactions;
+- scroll-driven/cinematic experiences;
+- procedural image-to-Three.js reconstruction;
+- App Store promotional assets;
+- reusable skill authoring.
 
 ## Source inspiration
 
