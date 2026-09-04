@@ -1,6 +1,6 @@
 # kram-skills
 
-Curated skills for [Kram](https://github.com/codexmark/kram). Each directory holds one skill
+Curated and extended skills for [Kram](https://github.com/codexmark/kram). Each directory holds one skill
 (`<name>/SKILL.md`, frontmatter + playbook) installable with Kram's `skill_install` tool —
 just ask Kram: *"install the skills from https://github.com/codexmark/kram-skills"*.
 
@@ -12,20 +12,43 @@ Quality: `code-review-and-quality` · `code-simplification` · `codebase-design`
 
 Process: `planning-and-task-breakdown` · `security-and-hardening` · `frontend-ui-engineering`
 
-UI/UX: `ui-redesign-existing-product` · `ui-visual-audit` · `ux-heuristic-audit` ·
+### UI/UX — recommended core
+
+`ui-redesign-existing-product` · `ui-visual-audit` · `ux-heuristic-audit` ·
 `web-ui-quality-gate` · `design-system-governance` · `frontend-redesign-pipeline`
 
+The core is the conservative default for product, enterprise, admin and backoffice work. It separates
+redesign, visual audit, usability audit, browser quality, and design-system governance so several skills
+do not accidentally compete as independent art directors.
+
+### UI/UX — extended library
+
+Art direction: `creative-frontend-direction` · `ui-style-explorer` · `taste-parameterized-design` ·
+`anti-slop-interface-design` · `soft-ui-direction` · `minimalist-ui-direction` · `brutalist-ui-direction`
+
+Continuity and references: `design-memory` · `design-reference-study` · `image-reference-to-code` ·
+`complete-ui-output`
+
+UX/research: `ux-controlled-design` · `ux-innovative-design` · `design-research-and-strategy` ·
+`design-sprint` · `hooked-retention-ux` · `design-rating-scorecard`
+
+Platform: `react-performance-ui` · `react-composition-patterns` · `react-native-ui-performance` ·
+`ios-hig-design`
+
+Design-to-code / brand: `figma-to-code-handoff` · `stitch-design-handoff` · `theme-factory` ·
+`brand-guidelines` · `brand-kit-generation` · `visual-canvas-design` · `skill-authoring`
+
+Motion / spatial / assets: `motion-microinteractions` · `scroll-driven-experience` ·
+`immersive-scroll-world` · `image-to-threejs` · `app-store-screenshot-design`
+
+Extended skills are available on purpose: Kram may be used for expressive sites, research, branding,
+mobile/native work, motion, 3D, design exploration and experimentation as well as enterprise UI. They are
+specialized rather than default; use the narrowest skill that matches the task.
+
+See [UI-UX-CURATION.md](UI-UX-CURATION.md) for the authority model and
+[EXTENDED-UI-UX.md](EXTENDED-UI-UX.md) for the extended catalog and source inspiration.
+
 Voice: `ponytail` · `caveman`
-
-### UI/UX curation
-
-The UI/UX set is intentionally smaller than the upstream Claude/design-skill ecosystem. It separates
-transformation, visual audit, heuristic audit, web quality, and design-system governance so multiple
-skills do not compete as independent art directors. `frontend-redesign-pipeline` defines the recommended
-sequence for broad redesign work; `frontend-ui-engineering` remains the lightweight default for ordinary
-component/page implementation.
-
-See [UI-UX-CURATION.md](UI-UX-CURATION.md) for the reviewed source collections and curation rationale.
 
 ## Vendored from external collections (MIT, see THIRD-PARTY-NOTICES.md)
 
@@ -52,8 +75,8 @@ source repos when they evolve.
   `receiving-code-review`, plus newer ones (`brainstorming`, `writing-plans`, `using-git-worktrees`,
   `subagent-driven-development`).
 - [anthropics/skills](https://github.com/anthropics/skills) (Apache 2.0 for general skills) —
-  official collection; `mcp-builder` and `skill-creator` are the coding-agent picks.
-- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) — the
+  official collection; `mcp-builder` and `skill-creator` are strong coding-agent references.
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) — a broad
   curated index when hunting for more.
 
 Ask Kram: *"install test-driven-development and systematic-debugging from https://github.com/obra/superpowers"*.
