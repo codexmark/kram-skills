@@ -7,9 +7,25 @@ just ask Kram: *"install the skills from https://github.com/codexmark/kram-skill
 ## Skills in this repo (original, MIT)
 
 Discipline: `investigate-first` · `verify-and-stop` · `surgical-patch` · `safe-refactor` · `diagnosing-bugs`
+
 Quality: `code-review-and-quality` · `code-simplification` · `codebase-design` · `domain-modeling`
+
 Process: `planning-and-task-breakdown` · `security-and-hardening` · `frontend-ui-engineering`
+
+UI/UX: `ui-redesign-existing-product` · `ui-visual-audit` · `ux-heuristic-audit` ·
+`web-ui-quality-gate` · `design-system-governance` · `frontend-redesign-pipeline`
+
 Voice: `ponytail` · `caveman`
+
+### UI/UX curation
+
+The UI/UX set is intentionally smaller than the upstream Claude/design-skill ecosystem. It separates
+transformation, visual audit, heuristic audit, web quality, and design-system governance so multiple
+skills do not compete as independent art directors. `frontend-redesign-pipeline` defines the recommended
+sequence for broad redesign work; `frontend-ui-engineering` remains the lightweight default for ordinary
+component/page implementation.
+
+See [UI-UX-CURATION.md](UI-UX-CURATION.md) for the reviewed source collections and curation rationale.
 
 ## Vendored from external collections (MIT, see THIRD-PARTY-NOTICES.md)
 
