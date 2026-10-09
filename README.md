@@ -12,6 +12,9 @@ Quality: `code-review-and-quality` · `code-simplification` · `codebase-design`
 
 Process: `planning-and-task-breakdown` · `security-and-hardening` · `frontend-ui-engineering`
 
+Session hygiene: `claude-optimizer` — break long sessions with a handoff file without losing the thread;
+includes an optional Claude Code hook that warns when the context grows past set limits
+
 ### UI/UX — recommended core
 
 `ui-redesign-existing-product` · `ui-visual-audit` · `ux-heuristic-audit` ·
